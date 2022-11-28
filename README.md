@@ -1,3 +1,8 @@
+*This second hand car selling seb app
+*Login method added
+*Seller can post products
+*admin can control everything
+*User can add review 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
