@@ -13,7 +13,7 @@ import Banner from "./Banner/Banner";
 const Home = () => {
   const [bannerImage, setBannerImage] = useState();
   useEffect(() => {
-    fetch("servicess.json")
+    fetch("manifest.json")
       .then((res) => res.json())
       .then((data) => setBannerImage(data));
   }, []);
@@ -31,9 +31,10 @@ const Home = () => {
     <>
       <section className="mb-0 h-[auto] mt-[62px] bg-gray-800 md:pb-5">
         <div className="carousel w-full bg-gray-500">
-          {bannerImage?.map((item, i) => (
+          {/* {bannerImage?.map((item, i) => (
             <SliderBanner key={i} item={item}></SliderBanner>
-          ))}
+          ))} */}
+          {/* <Banner></Banner> */}
         </div>
 
         <div className="relative w-full flex gap-4 py-6 overflow-x-auto">
@@ -48,7 +49,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ----------------All Car Booking section----------------- */}
+    
         
       <section className="bg-gray-200 py-[30px]">
         <UserBooking></UserBooking>
