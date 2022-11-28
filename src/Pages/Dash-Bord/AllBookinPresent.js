@@ -23,7 +23,7 @@ const AllBookinPresent = () => {
         <span className="text-fuchsia-700">{booking?.length}</span>
       </h1>
       <div className="overflow-x-auto">
-        {/* <table className="table table-zebra w-full">
+        <table className="table table-zebra w-full">
           <thead>
             <tr>
               <th></th>
@@ -31,7 +31,7 @@ const AllBookinPresent = () => {
               <th>Account type</th>
             </tr>
           </thead>
-          <tbody> */}
+          <tbody>
             {booking.map((bok, i) => (
               <tr key={bok?._id}>
                 <th>
