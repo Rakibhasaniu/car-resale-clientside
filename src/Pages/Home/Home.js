@@ -8,6 +8,7 @@ import SliderBanner from "./SliderBanner";
 import UserBooking from "./AllBooking/UserBooking";
 import AllProductImg from "./All product img/AllProductImg";
 import Revewsproduct from "./reviews/Reviewsproduct";
+import Banner from "./Banner/Banner";
 
 const Home = () => {
   const [bannerImage, setBannerImage] = useState();
@@ -48,11 +49,12 @@ const Home = () => {
       </section>
 
       {/* ----------------All Car Booking section----------------- */}
-
+        
       <section className="bg-gray-200 py-[30px]">
         <UserBooking></UserBooking>
       </section>
       <section className="dark:bg-gray-800 py-[30px] mb-2">
+        {/* <Banner></Banner> */}
         <AllProductImg></AllProductImg>
         <Revewsproduct></Revewsproduct>
       </section>

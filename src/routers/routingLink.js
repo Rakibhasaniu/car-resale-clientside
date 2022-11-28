@@ -16,6 +16,7 @@ import AddProduct from "../Pages/Add Product/AddProduct";
 import MyProduct from "../Pages/My product/MyProduct";
 import Admin from '../Pages/Admin/Admin'
 import MyOrder from "../Pages/MyOrder/MyOrder";
+import Banner from "../Pages/Home/Banner/Banner";
 //route setup
 const router = createBrowserRouter([
 
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
             {
                 path: '/addProduct',
                 element: <PrivetRoute><AddProduct /></PrivetRoute>,
+            },
+            {
+                path:'/banner',
+                element: <Banner></Banner>
             },
             {
                 path: '/myProduct',
