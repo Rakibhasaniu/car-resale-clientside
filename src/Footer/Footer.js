@@ -10,7 +10,7 @@ export class Footer extends Component {
                             <div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
                                 <img src="https://i.ibb.co/ByrKpS1/download-removebg-preview.png" alt="" />
                             </div>
-                            <span className="self-center text-2xl font-semibold">Resall.<span className='text-[15px] text-amber-600'>shop</span></span>
+                            <span className="self-center text-2xl font-semibold">CAR<span className='text-[15px] text-amber-600'>BAZZAR</span></span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
@@ -78,7 +78,7 @@ export class Footer extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="py-6 text-sm text-center dark:text-gray-400">© 1968 Company Co. All rights reserved.</div>
+                <div className="py-6 text-sm text-center dark:text-gray-400">© All Right Reserved By Rakib Hasan </div>
             </footer>
         )
     }
