@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const AllProductImg = () => {
-    const [imgss, setImg] = useState()
+    const [images, setImg] = useState()
     useEffect(() => {
         fetch(`https://assegnment-12-server-site.vercel.app/allProduct/`)
             .then(res => res.json())
@@ -21,7 +21,7 @@ const AllProductImg = () => {
                 <p className='text-[22px] text-amber-600 text-center pb-5'>Click Those Image To See Full Image </p>
                 <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 md:px-20 px-2">
                     {
-                        imgss?.map((imgs, i) => <>
+                        images?.map((imgs, i) => <>
                             <PhotoProvider>
                                 <div className="foo">
 
